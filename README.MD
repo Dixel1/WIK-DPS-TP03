@@ -29,4 +29,4 @@ Voir le fichier *nginx.conf* : https://github.com/Sarvagon/WIK-DPS-TP03/blob/mai
 ## Round-robin
 Le round-robin est utilisé ici par le proxy NGINX afin de répartir la charge trafic de l'API lors de requètes sur /PING. Il s'agit donc d'une méthode utilisée pour effectuer de l'ordonnancement de la répartition de charge.
 
-**NOTE : L'api est accessible directement depuis l'adresse du proxy NGINX (adresse "front") qui lui permettra ensuite de répartir la charge des requête sur les différents noeuds du cluster de serveurs web contenant l'API.**
+**NOTE : L'api est accessible directement depuis l'adresse du proxy NGINX (adresse "front") qui lui permettra ensuite de répartir la charge des requêtes sur les différents noeuds du cluster de serveurs web contenant l'API.**
