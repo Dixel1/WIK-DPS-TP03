@@ -23,9 +23,10 @@ Un fichier *docker-compose.yaml* est un fichier de configuration pour Docker Com
 Voir le fichier *docker-compose.yaml* : https://github.com/Sarvagon/WIK-DPS-TP03/blob/main/docker-compose.yaml
 
 ## NGINX (nginx.conf)
-NGINX est un utilitaire permettant de créer, configurer et déployer un serveur proxy de manière simple. Il est donc possible d'automatiser son déploiement depuis Docker en utilisant un fichier *docker-compose.yaml* et un fichier de configuration *nginx.conf*.
+NGINX est un utilitaire permettant de créer, configurer et déployer un serveur proxy de manière simple. Il est donc possible d'automatiser son déploiement depuis Docker en utilisant un fichier *docker-compose.yaml* et un fichier de configuration *nginx.conf* qui définiera ses paramètres.
+Voir le fichier *nginx.conf* : https://github.com/Sarvagon/WIK-DPS-TP03/blob/main/nginx.conf
 
 ## Round-robin
 Le round-robin est utilisé ici par le proxy NGINX afin de répartir la charge trafic de l'API lors de requètes sur /PING. Il s'agit donc d'une méthode utilisée pour effectuer de l'ordonnancement de la répartition de charge.
 
-*NOTE : L'api est accessible directement depuis l'adresse du proxy NGINX (adresse "front") qui lui permettra ensuite de répartir la charge des requête sur les différents noeuds du cluster de serveurs web contenant l'API.*
+**NOTE : L'api est accessible directement depuis l'adresse du proxy NGINX (adresse "front") qui lui permettra ensuite de répartir la charge des requête sur les différents noeuds du cluster de serveurs web contenant l'API.**
