@@ -1,9 +1,9 @@
-#INSTRUCTIONS
+# INSTRUCTIONS
 
 Toutes les instructions qui suivront doivent être effectuées depuis le dossier contenant le projet. Lors de l'ouverture du terminale vous pouvez vous deplécer avec en utilisant la commande *cd [...]*. Par exemple : 
 ![image](https://user-images.githubusercontent.com/63664894/205495826-bc1e7c13-b7e9-4f4b-8e49-1ee737c46166.png)
 
-##Build + démarrage du cluster (docker compose)
+## Build + démarrage du cluster (docker compose)
 - Lancer la commande *docker compose up --build*
 ![image](https://user-images.githubusercontent.com/63664894/205495337-5f55adf9-2848-4755-8c22-a4461ff433fa.png)
 - Sur *http://localhost:8081/* on constate le bon fonctionnement de l'API avec un affichage vide en erreur 404.
